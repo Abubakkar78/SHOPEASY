@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ShopEasy</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#products" class="hover:underline">Products</a></li>
+                    <li><a href="#cart" class="hover:underline">Cart</a></li>
+                    <li><a href="#checkout" class="hover:underline">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <section id="home" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Welcome to ShopEasy</h2>
+            <p>Your one-stop shop for all your needs. Browse our wide range of products and enjoy a seamless shopping experience.</p>
+        </section>
+
+        <section id="products" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\chairs.jpg" alt="Product image of a stylish modern chair" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Modern Chair</h3>
+                    <p class="text-gray-700 mb-2">$120.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\laptop.jpg" alt="Product image of a sleek black laptop" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Sleek Laptop</h3>
+                    <p class="text-gray-700 mb-2">$999.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\Running shoes.avif" alt="Product image of a pair of running shoes" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Running Shoes</h3>
+                    <p class="text-gray-700 mb-2">$75.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\smart watch.jpg" alt="Product image of a smart watch with a black strap" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Smart Watch</h3>
+                    <p class="text-gray-700 mb-2">$199.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\tabel.jpg" alt="Product image of a stylish modern table lamp" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Modern Table Lamp</h3>
+                    <p class="text-gray-700 mb-2">$45.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\wirless headphone.jpg" alt="Product image of a pair of wireless headphones" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Wireless Headphones</h3>
+                    <p class="text-gray-700 mb-2">$150.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\Modern sofa.jpg" alt="Product image of a stylish modern sofa" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Modern Sofa</h3>
+                    <p class="text-gray-700 mb-2">$850.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="F:\shopEasy website\Modern Bookshelf.jpg" alt="Product image of a stylish modern bookshelf" class="w-full h-48 object-cover mb-4">
+                    <h3 class="text-lg font-bold mb-2">Modern Bookshelf</h3>
+                    <p class="text-gray-700 mb-2">$220.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Shopping Cart</h2>
+            <div class="bg-white p-4 rounded shadow">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr>
+                            <th class="py-2 px-4 border-b">Product</th>
+                            <th class="py-2 px-4 border-b">Quantity</th>
+                            <th class="py-2 px-4 border-b">Price</th>
+                            <th class="py-2 px-4 border-b">Total</th>
+                            <th class="py-2 px-4 border-b">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 px-4 border-b">Modern Chair</td>
+                            <td class="py-2 px-4 border-b"><input type="number" value="1" class="w-16 p-2 border rounded"></td>
+                            <td class="py-2 px-4 border-b">$120.00</td>
+                            <td class="py-2 px-4 border-b">$120.00</td>
+                            <td class="py-2 px-4 border-b"><button class="bg-red-600 text-white px-4 py-2 rounded">Remove</button></td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">Sleek Laptop</td>
+                            <td class="py-2 px-4 border-b"><input type="number" value="1" class="w-16 p-2 border rounded"></td>
+                            <td class="py-2 px-4 border-b">$999.00</td>
+                            <td class="py-2 px-4 border-b">$999.00</td>
+                            <td class="py-2 px-4 border-b"><button class="bg-red-600 text-white px-4 py-2 rounded">Remove</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-4 text-right">
+                    <p class="text-lg font-bold">Total: $1119.00</p>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded mt-2">Proceed to Checkout</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="checkout" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Checkout</h2>
+            <div class="bg-white p-4 rounded shadow">
+                <form>
+                    <div class="mb-4">
+                        <label for="card-number" class="block text-gray-700">Card Number</label>
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456" class="w-full p-2 border rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label for="expiry-date" class="block text-gray-700">Expiry Date</label>
+                        <input type="text" id="expiry-date" placeholder="MM/YY" class="w-full p-2 border rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label for="cvv" class="block text-gray-700">CVV</label>
+                        <input type="text" id="cvv" placeholder="123" class="w-full p-2 border rounded">
+                    </div>
+                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Submit Payment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
